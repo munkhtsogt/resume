@@ -1,0 +1,435 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+    <a class="navbar-brand" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="">
+        </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'#about'" (click)="click($event)">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'#experience'" (click)="click($event)">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'#education'" (click)="click($event)">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'#skills'" (click)="click($event)">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'#projects'" (click)="click($event)">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'#awards'" (click)="click($event)">Awards</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+            <h1 class="mb-0">Munkh
+                <span class="text-primary">Tsogbadrakh</span>
+            </h1>
+            <div class="subheading mb-5">2202 N 105 St · Seattle, WA, U.S, 98133 · (206) 502-7742 ·
+                <a href="mailto:munkh.tsogbadrakh@gmail.com">munkh.tsogbadrakh@gmail.com</a>
+            </div>
+            <p class="mb-5">
+                Experienced Software Engineer with a demonstrated history of working in Java, Python and C++ languages as well as front-end technologies like AngularJS.
+            </p>
+            <ul class="list-inline list-social-icons mb-0">
+                <li class="list-inline-item">
+                    <a href="mailto:munkh.tsogbadrakh@gmail.com" target="_blank">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://linkedin.com/in/munkhtsogt" target="_blank">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/munkhtsogt" target="_blank">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+            <h2 class="mb-5">Experience</h2>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Software Development Engineer</h3>
+                    <div class="subheading mb-3">UBcab LLC</div>
+                    <p>Official taxi service firm, with mobile ride sharing application.</p>
+                    <ul>
+                        <li>
+                            Built RESTful web services and APIs
+                        </li>
+                        <li>
+                            Created document-oriented dynamic CMS platform with MongoDB
+                        </li>
+                        <li>
+                            Brokered real-time communication using RabbitMQ & Socket.IO
+                        </li>
+                        <li>
+                            Achieved over 20,000 downloaded users
+                        </li>
+                        <li>
+                            Won first place a Smart Mongolia competition, 2015
+                        </li>
+                        <li>
+                            Successfully delivered http://itoim.mn, http://ubcab.mn and others.
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">January 2014 - June 2017</span>
+                </div>
+            </div>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Software Engineer</h3>
+                    <div class="subheading mb-3">Alchemist Technologies LLC</div>
+                    <p>Web application and mobile game development start-up company.</p>
+                    <ul>
+                        <li>
+                            Implemented and programmed new functions for web applications
+                        </li>
+                        <li>
+                            Ensured CMS platform could handle more than 1000 requests per second
+                        </li>
+                        <li>
+                            Managed large scale projects (http://happyhome.mn, on some Ministries of Mongolian Government )
+                        </li>
+                        <li>
+                            Won second place, Startup Mongolia competition, 2014.
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">January 2012 - January 2014</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+            <h2 class="mb-5">Education</h2>
+            
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Maharishi University of Management</h3>
+                    <div class="subheading mb-3">Master of Science</div>
+                    <i>Fairfield, Iowa, U.S</i>
+                    <div>Computer Science</div>
+                    <p>GPA: 4.0</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2017 - April 2020</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">The National University of Mongolia</h3>
+                    <div class="subheading mb-3">Master of Science</div>
+                    <i>Ulaanbaatar, Mongolia</i>
+                    <div>Software engineering</div>
+                    <p>GPA: 3.5</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">September 2012 - June 2014</span>
+                </div>
+            </div>
+            
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Istanbul Technical University</h3>
+                    <div class="subheading mb-3">Bachelor of Science</div>
+                    <i>Istanbul, Turkey</i>
+                    <div>Computer engineering</div>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">September 2006 - November 2011</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+            <h2 class="mb-5">Skills</h2>
+            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+            <ul class="list-inline list-icons">
+                <li class="list-inline-item" title="Python">
+                    <i class="devicon devicon-python-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Java 8">
+                    <i class="devicon devicon-java-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="PHP">
+                    <i class="devicon devicon-php-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="C++">
+                    <i class="devicon devicon-cplusplus-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Django">
+                    <i class="devicon devicon-django-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Yii">
+                    <i class="devicon devicon-yii-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="NodeJS">
+                    <i class="devicon devicon-nodejs-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Express">
+                    <i class="devicon devicon-express-original colored"></i>
+                </li>
+                <li class="list-inline-item" title="Nginx">
+                    <i class="devicon devicon-nginx-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Redis">
+                    <i class="devicon devicon-redis-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="AngularJS">
+                    <i class="devicon devicon-angularjs-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Typescript">
+                    <i class="devicon devicon-typescript-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Javascript">
+                    <i class="devicon devicon-javascript-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="jQuery">
+                    <i class="devicon devicon-jquery-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="html5">
+                    <i class="devicon devicon-html5-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="css3">
+                    <i class="devicon devicon-css3-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="MySQL">
+                    <i class="devicon devicon-mysql-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Postgresql">
+                    <i class="devicon devicon-postgresql-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Oracle">
+                    <i class="devicon devicon-oracle-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="MongoDB">
+                    <i class="devicon devicon-mongodb-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Github">
+                    <i class="devicon devicon-github-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Git">
+                    <i class="devicon devicon-git-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Bitbucket">
+                    <i class="devicon devicon-bitbucket-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Ubuntu">
+                    <i class="devicon devicon-ubuntu-plain colored"></i>
+                </li>
+                <li class="list-inline-item" title="Windows 8">
+                    <i class="devicon devicon-windows8-original colored"></i>
+                </li>
+                <li class="list-inline-item" title="Intellij">
+                    <i class="devicon devicon-intellij-plain colored"></i>
+                </li>
+            </ul>
+
+            <div class="subheading mb-3">Workflow</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    System requirements &amp; System architecture
+                </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Full Stack Development
+                </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Testing &amp; Debugging
+                </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Cross Functional Teams
+                </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Agile Development &amp; Scrum
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+            <h2 class="mb-5">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top" src="assets/img/projects/1.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>CRM, Warehouse Management System</b> <br>
+                                Dynamic platform build on Python and MongoDB<br>
+                                MongoDB, Python/Tornado, Angular 2
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="http://platform.alchemist.mn" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top" src="assets/img/projects/2.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Mongolian top news portal</b> <br>
+                                News portal over 100,000 daily visitors <br>
+                                Python/Django, jQuery/AJAX/HTML5/CSS3, Javascript
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="http://itoim.mn" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-6">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top" src="assets/img/projects/3.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Taxi Hailing Application</b> <br>
+                                Official taxi calling application in Mongolia <br>
+                                jQuery/AJAX/HTML5/CSS3, Python/Django, MongoDB
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="http://ubcab.mn" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top" src="assets/img/projects/4.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Happyhome</b> <br>
+                                Geo location based apartment selling and renting <br>
+                                jQuery/AJAX/HTML5/CSS3, PHP/Mysql, AngularJS
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="http://happyhome.mn" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-6">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top" src="assets/img/projects/5.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Marchaakhai</b> <br>
+                                Child cartoon content streaming<br>
+                                Dash.js, jQuery/AJAX/HTML5/CSS3, PHP/MySQL
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="http://marchaakhai.mn" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top" src="assets/img/projects/6.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Minister of Construction</b> <br>
+                                Database of all Mongolian constuction projects <br>
+                                Reporting, jQuery/AJAX/HTML5/CSS3, PHP/MySQL
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="http://barilga.gov.mn/en" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+            <h2 class="mb-5">Awards &amp; Certifications</h2>
+            <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  3rd Place, Student's Mathematic Competition – Mongolian University, Mongolia – 2005
+                </li>
+                <li>
+                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  Honored Participant, International Mathematics Competition – American University, Bulgaria – 2005
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</div>
